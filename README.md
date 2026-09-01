@@ -38,7 +38,7 @@ Using [pipx](https://pipx.pypa.io) (recommended):
 
 ```bash
 git clone https://github.com/DuckzPY/torniquet.git
-cd tor-niquet
+cd torniquet
 pipx install -e .
 ```
 
@@ -46,7 +46,7 @@ Or in a virtualenv:
 
 ```bash
 git clone https://github.com/DuckzPY/torniquet.git
-cd tor-niquet
+cd torniquet
 python3 -m venv venv
 source venv/bin/activate
 pip install -e .
