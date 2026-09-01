@@ -1,0 +1,19 @@
+[project]
+name = "torniquet"
+version = "0.1.0"
+description = "Command-line anonymity and opsec companion for Tor"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1",
+    "rich>=13.0",
+    "stem>=1.8",
+    "requests[socks]>=2.31",
+    "PySocks>=1.7",
+]
+
+[project.scripts]
+torniquet = "torniquet.cli:cli"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
