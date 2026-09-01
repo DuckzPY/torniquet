@@ -1,8 +1,7 @@
 # torniquet
 
-Command-line anonymity and opsec companion for Tor. Wraps Tor's control
-port, checks for common leaks, and helps keep identities compartmentalized
-— all from one CLI.
+Command-line anonymity companion for Tor. Wraps Tor's control
+port, checks for common leaks, and helps keep identities compartmentalised all from one CLI.
 
 ## why
 
