@@ -37,7 +37,7 @@ sudo systemctl disable tor@default tor
 Using [pipx](https://pipx.pypa.io) (recommended):
 
 ```bash
-git clone https://github.com/DuckzPY/tor-niquet.git
+git clone https://github.com/DuckzPY/torniquet.git
 cd tor-niquet
 pipx install -e .
 ```
@@ -45,7 +45,7 @@ pipx install -e .
 Or in a virtualenv:
 
 ```bash
-git clone https://github.com/DuckzPY/tor-niquet.git
+git clone https://github.com/DuckzPY/torniquet.git
 cd tor-niquet
 python3 -m venv venv
 source venv/bin/activate
